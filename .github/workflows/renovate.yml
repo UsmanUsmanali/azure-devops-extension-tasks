@@ -1,7 +1,7 @@
-name: Renovate
+[error]Process completed with exit code 1.name: Renovate
 
-on:
-  schedule: 
+on:use_github_action_check_standard()
+  schedule: Cache not found for input keys: Linux-287c850eb370edd647ed85b6fac18cbaee02effa7d01b981304dce84a452b22c-1-, Linux--1-.
   - cron: "0 0 * * *"
   push:
     branches:
